@@ -1,0 +1,13 @@
+User Story: Login Page Implementation
+It has username,password, and a login button.
+If username, and pswd is valid, you should see welcome page.
+Otherwise there should be alert saying the invalid credentials.
+It should capable to handle 1M Users.
+and there are possibility that 1L user can login at a time.
+
+
+NAME AGE DOB Address           Status Msg
+sud  18   12/02/1989   "AAA"      "Success"
+ sudh  19  dsfhdf     "Asdsad"     "Failure"                         "Failure"
+
+

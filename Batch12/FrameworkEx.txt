@@ -1,0 +1,70 @@
+FaceBook WebPage-> FaceBookLoginPage.java
+
+public class FaceBookLoginPage
+{
+	KeyWordUtil keyUtil = new KeyWordUtil();
+
+	public void setEmail(String emailId)
+	{ 
+	  keyUtil.setText(emailId,"email","id");
+	}
+	public void setPassword(String password)
+	{
+            
+	    keyUtil.setText(password,"password","name");
+	}
+	publuc void clickOnLoginButton(){}
+}
+
+public class keyWordUtil()
+{
+	public void setText(String text,String locatorValue,String locatorName)
+	{
+           WebElement element = null;
+           if(locatorName.equals("id")
+		element = driver.findElement(By.id(locatorValue));
+           else if(locatorName.equals("name")
+		element = driver.findElementBy.name(locatorValue));
+           element.clear();
+  	   element.sendKeys(text);
+	}
+
+}
+
+public class FaceBookLoginPageUtil
+{
+        FaceBookPage fbPage = new FaceBookPage();
+	public void loginToFB(String emailId,String password)
+	{
+		fbPage.setEmail(emailId);
+		fbPage.setPassword(password);
+		//fbPage.clickOnLoginButton();
+	}
+}
+
+public void LoginTest
+{
+
+   FaceBookLoginPageUtil fbPageUtil = new FaceBookLoginPageUtil();
+   HomePage hPage = new HomePage();
+   public void loginToFacebookTest()
+   {
+	fbPageUtil.loginToFB("sudheer@gmail.com","password123");
+         //do the assertion to check you logged in
+   }
+
+   public void testOpenProfile()
+   {
+	fbPageUtil.loginToFB("sudheer@gmail.com","password123");
+        hPage.clickOnProfile();
+        //do assert the profile page opened
+   }
+
+}
+
+
+
+Framework is set of guideline,following these guidelines it produce better results in reducing duplicate
+code, it helps you to understand the code , it improve readability of code, makes you maintain the code
+easily.
+

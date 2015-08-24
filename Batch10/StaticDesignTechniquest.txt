@@ -1,0 +1,7 @@
+Static Test Desing Techniques:-
+Code Walk through
+Code review
+Static Analysis tools->
+Code practices
+Coding bugs
+Code Complextiy

@@ -1,0 +1,7 @@
+VoterID Card Registration
+-----------------
+Name : 6 to 10
+Age : 18 to 100
+DOB : DD/MM/YYYY
+Adress: 30 to 50 Chars
+

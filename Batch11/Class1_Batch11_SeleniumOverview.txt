@@ -1,0 +1,5 @@
+1.Selenium is an automation tools to automate the WebApplications.
+2.Json huggins is a software tester in a company call thoughworks.
+He developed the selnium, and he made it as open-source.
+He joined google, along with the google team, he contribute more the selenium project.
+
